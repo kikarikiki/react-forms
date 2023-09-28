@@ -5,8 +5,8 @@ import Form from './Form'
 export default function Home() {
 
   return (
-    <div className='container-fluid'>
+    <main className='container-fluid py-5'>
       <Form />
-    </div>
+    </main>
   )
 }
