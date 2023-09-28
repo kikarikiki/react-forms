@@ -3,8 +3,9 @@ React Forms Project
 This project was created for learning and practising Forms in React (with Vite) .
 I focused on learning about
 
-    Props
-    Creating components from an array
+    Controlled Components
+    Textarea Tag, Select Tag, Checkbox, Radio Buttons
+    Handling Multiple Inputs
 
 styling it with the help of
 
