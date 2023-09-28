@@ -4,6 +4,8 @@ import './header.scss';
 export default function Header() {
 
   return (
-    <div className='test'>test</div>
+    <div className='container-fluid'>
+      <h1>React-Forms</h1>
+    </div>
   )
 }
