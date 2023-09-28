@@ -13,7 +13,8 @@ export default function Form() {
             email: "",
             comments: "",
             isFriendly: true,
-            employment: ""
+            employment: "",
+            favColor: ""
         }
     )
 
@@ -118,8 +119,15 @@ export default function Form() {
             {/* selectbox / dropdown */}
             <label htmlFor="favColor">What is your favorite color?</label>
             <br />
-            <select id="favColor">
-                <option value="red">Red</option>
+            <select
+              id="favColor"
+              value={formData.favColor} // mirrors what we have in state
+              onChange={handleChange}
+              name="favColor"
+            >
+
+                <option value="">-- Choose --</option>
+                <option value="red">Red</option> {/* value: option to select*/}
                 <option value="orange">Orange</option>
                 <option value="yellow">Yellow</option>
                 <option value="green">Green</option>
