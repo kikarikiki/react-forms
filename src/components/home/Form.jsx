@@ -36,7 +36,7 @@ export default function Form() {
     }
 
     return (
-      <div className="wrapper">
+      <div className="wrapper col-6">
         <form className="rounded bg-white shadow p-5" onSubmit={handleSubmit}>
             {/* input-field type="text"*/}
             <div className="form-group">
@@ -93,7 +93,7 @@ export default function Form() {
 
             {/* radiobuttons: Mix between Checkbox & Text Inputs */}
             <fieldset className="form-group">
-                <legend>Current employment status</legend>
+                <legend>Employment status</legend>
                 <input
                     className="form-check-input"
                     type="radio"
