@@ -14,5 +14,5 @@ styling it with the help of
 </ul>
 <br>
 <br>
-<img src=""<img width="670" alt="image - forms in react" src="https://github.com/kikarikiki/react-forms/assets/68593523/18f2ed91-eece-43ec-994a-13a231e0daa7">
+<img width="670" alt="image - forms in react" src="https://github.com/kikarikiki/react-forms/assets/68593523/18f2ed91-eece-43ec-994a-13a231e0daa7">
 
