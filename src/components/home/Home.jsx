@@ -6,9 +6,11 @@ import SignUpForm from './SignUpForm'
 export default function Home() {
 
   return (
-    <main className='row p-5'>
-      <Form />
-      <SignUpForm />
+    <main className='container-fluid col-12'>
+      <div className="row col-10 m-auto p-5">
+        <Form />
+        <SignUpForm />
+      </div>
     </main>
   )
 }
